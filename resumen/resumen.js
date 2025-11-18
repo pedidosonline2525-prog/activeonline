@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (tester90 > 0) testerHTML += `<br><small>Tester 90ml: ${tester90}</small>`;
 
     div.innerHTML = `
-      <span><strong>${it.Nombre}</strong> (${it.Cont})</span>
+      <span><strong>${it.Nombre}</strong></span>
       <span>
         ${it.Cantidad} unidades
         ${testerHTML}
